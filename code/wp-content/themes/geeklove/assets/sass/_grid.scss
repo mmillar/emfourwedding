@@ -1,0 +1,83 @@
+.grids ,.countdown-row{
+  width: auto;
+  max-width: 1190px;
+  margin: 0 0 0 -1.7%;
+  list-style: none;
+  overflow: hidden;
+}
+.grids [class*="grid-"], .countdown-section{
+  display: inline-block;
+  margin: 0 0 0 1.5%;
+  vertical-align: top;
+}
+.grid-1 {
+  width: 6.15%;
+}
+.grid-2 {
+  width: 14.583%;
+}
+
+.grid-2-5{
+  width: 18.1%;
+}
+
+.grid-3{
+  width: 22.917%;
+}
+
+.countdown-row{
+  display: block;
+  .countdown-section:first-child{
+    // margin-left: 2.332%!important;
+  }
+}
+
+.countdown-show4 .countdown-section{
+  width: 23.5%;
+}
+
+.grid-4, .grid-one-third,
+.countdown-show3 .countdown-section{
+  width: 31.25%;
+}
+.grid-5 {
+  width: 39.583%;
+}
+.grid-6, .grid-half {
+  width: 47.917%;
+}
+.grid-7 {
+  width: 56.25%;
+}
+.grid-8, .grid-two-thirds {
+  width: 64.583%;
+}
+.grid-9 {
+  width: 72.917%;
+}
+.grid-10 {
+  width: 81.25%;
+}
+.grid-11 {
+  width: 89.583%;
+}
+.grid-12 {
+  width: 97.917%;
+  margin: 0;
+}
+@media screen and (max-width: 700px) {
+  .grids ,.countdown-row{
+    margin: 0;
+    width: auto;
+  }
+  .grids [class*="grid-"]{
+    display: block;
+    width: auto;
+    margin: 0 0 40px 0;
+  }
+  .countdown-section{
+    display: block;
+    width: auto!important;
+    margin: 20px auto!important;
+  }
+}

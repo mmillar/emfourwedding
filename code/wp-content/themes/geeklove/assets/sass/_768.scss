@@ -1,0 +1,49 @@
+/* 768 ============================================= */
+@media only screen and (max-width: 768px){
+    .countdown-section:before{
+        display: none;
+    }
+
+    .countdown-amount{
+        font-size: 70px;
+    }
+
+    #photo-list .photo.ipad-6{
+        width: 49%;
+        max-width: 350px;
+        max-height: 235px;
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px 2% 10px 0px;
+        &:nth-child(2n+2){
+            margin-right: 0 !important;
+        }
+        a{
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+/* 600 ============================================= */
+@media only screen and (max-width: 600px){
+    .header{
+        #logo,.full-wedding-date{
+            float: none;
+        }
+        .full-wedding-date{
+            margin-top: 20px;
+        }
+    }
+
+    .post-metas{
+        float: none!important;
+        .meta-data{
+            margin-left: 0;
+        }
+    }
+}

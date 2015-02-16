@@ -1,0 +1,58 @@
+$responsive: "true";
+
+///////////////////////////////////////////////////////////////////////
+// $MIXINS
+///////////////////////////////////////////////////////////////////////
+@mixin wh($width: 980px){
+  @if($responsive == "true"){
+    max-width: $width;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }@else{
+    width: $width;
+  }
+}
+
+@mixin md($class){
+    .#{$class} &{
+        @content;
+    }
+}
+
+$base_font_size: 16;
+
+@mixin font($pixels) {
+  font-size: $pixels + px;
+  font-size: ( $pixels / $base_font_size ) + rem;
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// $VARIABLES
+///////////////////////////////////////////////////////////////////////
+$headerBg: #1f2329;
+$headingFont: 'Nixie One', cursive;
+$bodyFont: 'Open Sans', Arial;
+$linkColor: #d44646;
+$textColor: #696969;
+$accent: #d44646;
+
+$sectionBorder: #e0e0dd;
+
+%static-content-cover {
+  position: relative;
+  .static-content-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    @include background-size(cover);
+    z-index: 1;
+  }
+  .hentry {
+    position: relative;
+    z-index: 2;
+  }
+}

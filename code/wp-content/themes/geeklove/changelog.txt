@@ -1,0 +1,174 @@
+== GeekLove Changelog ==
+
+= 2.0.6: Jan 2, 2015 =
+* Updated documentation link
+
+= 2.0.6: Oct 21, 2014 =
+* Fix: Broken caption in photo galleries
+* Updated lightbox library script
+
+= 2.0.4: Oct 21, 2014 =
+* Fix: Make sure RSVP messages are not publicly available
+
+= 2.0.3: 19 July, 2014 =
+* Fixed an issue with localization
+
+= 2.0.2: 02 July, 2014 =
+* Fix: Issue with 'Not Attending' RSVP message not visible when there is only 1 event
+* New: 'rsvp_success_message' filter for modifying the RSVP message
+* Few fixes and tweaks
+* Changed file(s):
+	- style.css
+	- functions.php
+	- includes/widgets/homepage-rsvp.php
+	- includes/widgets/static-content.php
+	- includes/cpt/rsvp.php
+
+= 2.0.1: 29 April, 2014 =
+* Fix: Remove extra space from text domain preventing string to translate (h/t @omathieu)
+* Fix: Wrong label for contact form message field (h/t @omathieu)
+* Fix: Countdown not working in Safari
+* Updated: Update countdown script to latest version
+* Changed file(s):
+	- functions.php
+	- template-contact.php
+	- languages/
+	- assets/js/jquery.countdown.js
+	- includes/options/styling-options.php
+	- includes/theme-customizer.php
+	- page-templates/template-contact.php
+
+= 2.0: 06 March, 2014 =
+* New: Adds compatibility with WPML
+* New: Adds compatibility with Gravity Forms
+* New: 'Section: Static Content' widget to display content from any page
+* New: Single pages for Photo Gallery
+* New: Captions for gallery lighbox
+* New: Added option for 'Not attending' in RSVP form
+* New: Added option for 'Not attending' in RSVP form
+* New: Added 'Max number of guests allowed' and 'Button label' option in 'RSVP Form' Widget
+* Improve: Removed JS scripts for dropdown, in favor of CSS
+* Improve: Contact form error handling
+* Improve: RSVP Widget, added option for number of allowed guests
+* Improve: Widgets compatibility with Stag Custom Sidebars plugin
+* Tweak: Rewritten widget class base
+* Tweak: Updated plugin scripts
+* Tweak: Inject custom css into head instead of making a new HTTP request
+* Refractor: Removed unused functions, huge performance improvements
+
+= 1.2.9: 23 January, 2014 =
+* style.css - Updated version number
+* functions.php - Fixed an issue with relative comments data
+* languages/ - Update localisation files
+
+= 1.2.8: 06 January, 2014 =
+* style.css - Updated version number
+* assets/js/jquery.custom.js - Added RSVP widget ajax submission
+* functions.php - Added RSVP widget ajax submission
+* includes/widgets/homepage-rsvp.php - Added RSVP widget ajax submission
+* NEW: template-widgetized.php - Support for Stag Custom Sidebars plugin
+
+= 1.2.7: 20 November, 2013 =
+* style.css - Updated version number
+* includes/cpt/events.php - Fixed an issue where cpt slug was localized
+* includes/cpt/gallery.php - Fixed an issue where cpt slug was localized
+* includes/cpt/guestbook.php - Fixed an issue where cpt slug was localized
+* includes/cpt/rsvp.php - Fixed an issue where cpt slug was localized
+
+= 1.2.6: 09 November, 2013 =
+* style.css - Updated version number
+* page-templates/template-photo-gallery.php - Fix an issue with photo gallery returning as array on mobile
+
+= 1.2.5: 29 October, 2013 =
+** This update ensures localisation strings and few tweaks in Admin Theme Options **
+
+* style.css - Updated version number
+* assets/js/plugins.js
+* functions.php
+* includes/ - Replace all folders
+
+= 1.2.4: 22 October, 2013 =
+* style.css - Updated version number
+* includes/options/styling-options.php - Fixed an issue with Google Web Font
+
+= 1.2.3: 10 October, 2013 =
+* style.css - Updated styling for lightbox, updated version number
+* assets/css/lightbox.css - few tweaks in default styles
+* assets/js/lightbox.js - updated to latest version 2.6
+* includes/widgets/homepage-gallery.php - fixed an issue with images on phones
+
+= 1.2.2: 09 October, 2013 =
+* style.css
+* Fix: Translation ready date output ( functions.php )
+* Fix: Contact Page Template wrong label ( page-templates/template-contact.php )
+* New: Updated Framework to v2.0.1 ( framework/ )
+
+= 1.2.1: 01 October, 2013 =
+* style.css - updated version number
+* functions.php - removed redundant code
+* single-events.php - removed redundant code
+* includes/metaboxes/event-metabox.php - change type from date to text
+* includes/widgets/homepage-gallery.php - fixed bugs
+* page-templates/template-photo-gallery.php - removed redundant code
+* framework/ - updated styling for admin metabox
+
+= 1.2: 24 September, 2013 =
+* style.css - updated version number
+* NEW: StagFramework v2, Compatible and requires plugin StagTools to work
+* NOTE: Full replace of files and folder are required
+
+= 1.1.5: 18 September, 2013 =
+* style.css - updated version number
+* functions.php - fixed an issue with wedding dates
+
+= 1.1.4: 14 September, 2013 =
+* style.css - updated version number
+* framework/stag-admin-function.php - omit slashes
+* incldues/widgets/homepage-wedding-intro.php - omit slashes
+
+= 1.1.3: 02 July, 2013 =
+* style.css - updated version number, fixed a bug prevent Nixie One font to work
+* includes/widgets/twitteroauth.php - check for multiple instances
+
+= 1.1.2: 20 June, 2013 =
+** Updated File(s) **
+* style.css - updated version number
+* functions.php - removed Chirp.js script
+* includes/widgets/widget-twitter.php - more organised code
+* includes/widgets/homepage-tweets.php - support for twitter api v1.1 and new settings field for specifying tweets number.
+
+** New File(s) **
+* includes/widgets/twitteroauth.php
+
+= 1.1.1: 12 June, 2013 =
+* style.css - updated version number
+* includes/widgets/widget-twitter.php - updated compatibility with twitter api v1.1
+
+
+= 1.1: 25 May, 2013 =
+* style.css - updated version number
+* WordPress 3.6 Compatibility
+
+= 1.0.1.2: 17 April, 2013 =
+* ** This version provides better compatibility with IE8 and 9.**
+* style.css - update version number, better compatibility with IE8,9
+* includes/theme-customizer.php - Removed double columns before :before, causes an issue with <IE9
+* header.php - IE8, IE9 classes added to <html>
+* functions.php - Moved IE scripts to header.php
+
+= 1.0.1.1: 14 March, 2013 =
+* Fixes small issue with countdown on iPad Portrait and Landscape Version
+
+** Updated Files **
+* style.css
+* includes/widgets/homepage-countdown.php
+
+= 1.0.1: 11 Mar, 2013 =
+* Fixed small issue with Gallery Modal navigation buttons alignment
+* style.css - Removed redundant CSS, few tweaks and fixes
+* includes/theme-customizer.php - Separated comma seperated pseudo selectors to avoid confict with IE8
+* includes/styling-options.php - Fixed the wrong lable for Heading and Body Font
+* page.php - Fixed issue with double titles
+
+= 1.0.0: 03 March, 2013 =
+* Initial Release

@@ -1,0 +1,29 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .footer-outer:before,
+    #comment-wrap:before,
+    #tweets:before,
+    #guestbook-form:before,
+    #event:before{
+        background-image: url(assets/img/bg-event-arrow-top@2x.png);
+        background-size: 19px 9px;
+        height: 8px;
+    }
+    #event:after,
+    #tweets:after,
+    #guestbook-form:after,
+    #comment-wrap:after{
+        background-image: url(assets/img/bg-event-arrow-bottom@2x.png);
+        background-size: 19px 9px;
+    }
+    .cd-dropdown > span:after{
+        background-image: url(assets/img/bg-dropdown@2x.png);
+        background-size: 15px 25px;
+    }
+}

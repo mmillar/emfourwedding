@@ -1,0 +1,1860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeekLove\n"
+"POT-Creation-Date: 2014-07-18 13:26+0530\n"
+"PO-Revision-Date: 2014-07-18 13:27+0530\n"
+"Last-Translator: Ram Ratan Maurya <ram@codestag.com>\n"
+"Language-Team: Ram Ratan Maurya <ram@codestag.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4 index.php:56
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: archive.php:23
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: archive.php:25
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: archive.php:27 archive.php:29 archive.php:31
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:33
+msgid "All posts by"
+msgstr ""
+
+#: archive.php:35
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:48 content-standard.php:32
+#: includes/widgets/homepage-blog.php:90
+#: includes/widgets/homepage-event.php:98
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: archive.php:49 content-standard.php:16
+#: includes/widgets/homepage-blog.php:85
+msgid "In Category"
+msgstr ""
+
+#: archive.php:55 index.php:32 page-templates/template-guestbook.php:113
+msgid "Previous Page"
+msgstr ""
+
+#: archive.php:56 index.php:33 page-templates/template-guestbook.php:114
+msgid "Next Page"
+msgstr ""
+
+#: comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24 content-standard.php:27
+#: includes/widgets/homepage-blog.php:87
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:27
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:38
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:91
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:92
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:93
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments.php:96
+msgid "Submit a Comment"
+msgstr ""
+
+#: comments.php:97
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:98
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:99
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:101 includes/widgets/homepage-rsvp.php:78
+#: page-templates/template-contact.php:71
+#: page-templates/template-guestbook.php:28
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:102 page-templates/template-contact.php:79
+msgid "Your Email"
+msgstr ""
+
+#: content-standard.php:10 includes/widgets/homepage-blog.php:84
+msgid "Posted By"
+msgstr ""
+
+#: content-standard.php:41
+msgid "Pages:"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:32
+msgid "Settings Backup"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:32
+#: framework/classes/class-admin-backup.php:47
+msgid "Backup Settings"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:49
+msgid "Import Settings"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:51
+msgid ""
+"If you have settings in a backup file on your computer, the StagFramework "
+"can import those into this site. To get started, upload your backup file to "
+"import from below."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:56
+#, php-format
+msgid "Upload File: (Maximum Size: %s)"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:59
+msgid "Upload File and Import"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:63
+msgid "Export Settings"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:64
+msgid ""
+"When you click the button below, the StagFramework will create a text file "
+"for you to save to your computer."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:65
+#, php-format
+msgid ""
+"This text file can be used to restore your settings here on \"%s\", or to "
+"easily setup another website with the same settings\"."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:69
+msgid "All Content"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:70
+msgid "This will contain all of your theme options."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:73
+msgid "Download Export File"
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:88
+#, php-format
+msgid ""
+"Please note that this backup manager backs up only your settings and not "
+"your content. To backup your content, please use the %sWordPress Export Tool"
+"%s."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:91
+msgid "There was a problem importing your settings. Please Try again."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:93
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:95
+msgid "The import file you've provided is invalid. Please try again."
+msgstr ""
+
+#: framework/classes/class-admin-backup.php:97
+#, php-format
+msgid "Settings successfully imported. Return to %sTheme Options%s"
+msgstr ""
+
+#: framework/classes/class-stag-widget.php:191
+msgid "All"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:159
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:160
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:161
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:162
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:164
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:165
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:166
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:167
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:168
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:171
+#: framework/classes/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:172
+#: framework/classes/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1950
+#: framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1950
+#: framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/stag-admin-functions.php:97
+msgid "Select"
+msgstr ""
+
+#: framework/stag-admin-functions.php:211
+msgid "Upload"
+msgstr ""
+
+#: framework/stag-admin-functions.php:240
+msgid "Remove"
+msgstr ""
+
+#: framework/stag-admin-functions.php:260
+msgid "Upload or Choose your own Image file"
+msgstr ""
+
+#: framework/stag-admin-functions.php:262
+#: framework/stag-admin-metaboxes.php:79
+msgid "Insert"
+msgstr ""
+
+#: framework/stag-admin-functions.php:465
+msgid "Normal"
+msgstr ""
+
+#: framework/stag-admin-functions.php:466
+msgid "Italic"
+msgstr ""
+
+#: framework/stag-admin-functions.php:467
+msgid "Bold"
+msgstr ""
+
+#: framework/stag-admin-functions.php:468
+msgid "Bold Italic"
+msgstr ""
+
+#: framework/stag-admin-interface.php:15
+#, php-format
+msgid ""
+"<strong>%s activated.</strong> Please save settings before leaving this page."
+msgstr ""
+
+#: framework/stag-admin-interface.php:19
+msgid "Settings saved!"
+msgstr ""
+
+#: framework/stag-admin-interface.php:19
+msgid "Error saving settings!"
+msgstr ""
+
+#: framework/stag-admin-interface.php:30
+msgid "v"
+msgstr ""
+
+#: framework/stag-admin-interface.php:34
+#, php-format
+msgid ""
+"By <a href=\"%1$s\" target=\"_blank\">%2$s</a> <span class=\"divider\">&#47;"
+"</span> <a href=\"%3$s\" target=\"_blank\">Documentation</a> <span class="
+"\"divider\">&#47;</span> <a href=\"%4$s\" target=\"_blank\">Support</a>"
+msgstr ""
+
+#: framework/stag-admin-interface.php:86
+msgid "Reset Options"
+msgstr ""
+
+#: framework/stag-admin-interface.php:87
+msgid "Save Changes"
+msgstr ""
+
+#: framework/stag-admin-interface.php:134
+msgid "You do not have sufficient permissions to save these options."
+msgstr ""
+
+#: framework/stag-admin-interface.php:160
+msgid "Settings saved"
+msgstr ""
+
+#: framework/stag-admin-interface.php:177
+msgid "You do not have sufficient permissions to reset these options."
+msgstr ""
+
+#: framework/stag-admin-metaboxes.php:119
+msgid "Create Featured Gallery"
+msgstr ""
+
+#: framework/stag-admin-metaboxes.php:126
+#: framework/stag-admin-metaboxes.php:134
+msgid "Edit Featured Gallery"
+msgstr ""
+
+#: framework/stag-admin-metaboxes.php:170
+msgid "Save Featured Gallery"
+msgstr ""
+
+#: framework/stag-admin-metaboxes.php:179
+msgid "Saving..."
+msgstr ""
+
+#: framework/stag-admin-metaboxes.php:242
+#: framework/stag-admin-metaboxes.php:244 includes/cpt/gallery.php:13
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/stag-framework.php:123
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:78
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:176
+msgid "Years"
+msgstr ""
+
+#: functions.php:177
+msgid "Months"
+msgstr ""
+
+#: functions.php:178
+msgid "Weeks"
+msgstr ""
+
+#: functions.php:179
+msgid "Days"
+msgstr ""
+
+#: functions.php:180
+msgid "Hours"
+msgstr ""
+
+#: functions.php:181
+msgid "Minutes"
+msgstr ""
+
+#: functions.php:182
+msgid "Seconds"
+msgstr ""
+
+#: functions.php:185
+msgid "Year"
+msgstr ""
+
+#: functions.php:186
+msgid "Month"
+msgstr ""
+
+#: functions.php:187
+msgid "Week"
+msgstr ""
+
+#: functions.php:188
+msgid "Day"
+msgstr ""
+
+#: functions.php:189
+msgid "Hour"
+msgstr ""
+
+#: functions.php:190
+msgid "Minute"
+msgstr ""
+
+#: functions.php:191
+msgid "Second"
+msgstr ""
+
+#: functions.php:262
+msgid "ago"
+msgstr ""
+
+#: functions.php:264
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:434
+msgid "Thanks for attending, we will see you at our wedding."
+msgstr ""
+
+#: includes/cpt/events.php:9 includes/cpt/events.php:10
+msgid "Events"
+msgstr ""
+
+#: includes/cpt/events.php:11
+msgid " Add New"
+msgstr ""
+
+#: includes/cpt/events.php:12
+msgid " Add New Events"
+msgstr ""
+
+#: includes/cpt/events.php:13
+msgid " Edit Events"
+msgstr ""
+
+#: includes/cpt/events.php:14
+msgid " New Events"
+msgstr ""
+
+#: includes/cpt/events.php:15
+msgid " View Events"
+msgstr ""
+
+#: includes/cpt/events.php:16
+msgid " Search Events"
+msgstr ""
+
+#: includes/cpt/events.php:17
+msgid " No events found"
+msgstr ""
+
+#: includes/cpt/events.php:18
+msgid " No events found in Trash"
+msgstr ""
+
+#: includes/cpt/events.php:46
+msgid "Event Title"
+msgstr ""
+
+#: includes/cpt/events.php:47 includes/metaboxes/event-metabox.php:21
+msgid "Event Date"
+msgstr ""
+
+#: includes/cpt/events.php:48 includes/metaboxes/event-metabox.php:28
+msgid "Event Time"
+msgstr ""
+
+#: includes/cpt/events.php:49
+msgid " Date Added"
+msgstr ""
+
+#: includes/cpt/gallery.php:9 includes/cpt/gallery.php:10
+#: includes/metaboxes/gallery-metabox.php:7
+msgid "Gallery"
+msgstr ""
+
+#: includes/cpt/gallery.php:11 includes/cpt/guestbook.php:11
+#: includes/cpt/rsvp.php:11
+msgid "Add New"
+msgstr ""
+
+#: includes/cpt/gallery.php:12
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/cpt/gallery.php:14
+msgid "New Gallery"
+msgstr ""
+
+#: includes/cpt/gallery.php:15
+msgid "View Gallery"
+msgstr ""
+
+#: includes/cpt/gallery.php:16
+msgid "Search Gallery"
+msgstr ""
+
+#: includes/cpt/gallery.php:17
+msgid "No galleries found"
+msgstr ""
+
+#: includes/cpt/gallery.php:18
+msgid "No galleries found in Trash"
+msgstr ""
+
+#: includes/cpt/gallery.php:46 includes/cpt/gallery.php:47
+msgid "Categories"
+msgstr ""
+
+#: includes/cpt/gallery.php:57
+msgid "Gallery Title"
+msgstr ""
+
+#: includes/cpt/gallery.php:58 includes/cpt/guestbook.php:49
+#: includes/cpt/rsvp.php:50
+msgid "Date Added"
+msgstr ""
+
+#: includes/cpt/guestbook.php:9 includes/cpt/guestbook.php:10
+msgid "Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:12
+msgid "Add New Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:13
+msgid "Edit Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:14
+msgid "New Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:15
+msgid "View Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:16
+msgid "Search Guestbook"
+msgstr ""
+
+#: includes/cpt/guestbook.php:17
+msgid "No Guestbooks found"
+msgstr ""
+
+#: includes/cpt/guestbook.php:18
+msgid "No Guestbooks found in Trash"
+msgstr ""
+
+#: includes/cpt/guestbook.php:47
+msgid "Name"
+msgstr ""
+
+#: includes/cpt/guestbook.php:48
+msgid "Message"
+msgstr ""
+
+#: includes/cpt/rsvp.php:9
+msgid "Attendees"
+msgstr ""
+
+#: includes/cpt/rsvp.php:10
+msgid "RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:12
+msgid "Add New RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:13
+msgid "Edit RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:14
+msgid "New RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:15
+msgid "View RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:16
+msgid "Search RSVP"
+msgstr ""
+
+#: includes/cpt/rsvp.php:17
+msgid "No RSVPs found"
+msgstr ""
+
+#: includes/cpt/rsvp.php:18
+msgid "No RSVPs found in Trash"
+msgstr ""
+
+#: includes/cpt/rsvp.php:47
+msgid "RSVP Title"
+msgstr ""
+
+#: includes/cpt/rsvp.php:48
+msgid "Number of Attendees"
+msgstr ""
+
+#: includes/cpt/rsvp.php:49 includes/metaboxes/rsvp-metabox.php:25
+msgid "Event Attending"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:7
+msgid "Contact Prefrences"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:8
+msgid "Edit your contact preferences"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:14
+msgid "Secondary Title"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:15
+msgid "Enter the secondary title, used for second section on contact page."
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:21
+msgid "Contact Number"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:22
+msgid "Enter your contact number."
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:28
+msgid "Email Address"
+msgstr ""
+
+#: includes/metaboxes/contact-metabox.php:29
+msgid "Enter your email address."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:7
+msgid "Event Settings"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:8
+msgid "Edit your event date, time, location and featured images"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:14
+msgid "Event Page Sub Title"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:15
+msgid "Enter the sub title for the event, used to display on single post."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:22
+msgid "Choose the event date in dd-mm-yyyy format. e.g. 23-04-2014"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:29
+msgid "Enter the event timings."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:35
+msgid "Event Featured Image"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:36
+msgid ""
+"Choose a featured image for event, ideal size 460px x 185px. Used to display "
+"on homepage."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:42
+msgid "Event Cover"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:43
+msgid ""
+"Choose a background cover for event, ideal size 1260px x 260px. Used to "
+"display on single post."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:49
+msgid "Event Location"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:50
+msgid "Enter the location of the event"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:56
+msgid "Event Map Link"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:57
+msgid "Enter the Google map link to display a map."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:69
+msgid "Linked Page"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:70
+msgid "Display a link after the post to another page."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:76
+msgid "Linked Page URL"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:77
+msgid ""
+"This URL will used to display a link on the bottom of the page to display a "
+"link to another page (optional)."
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:83
+msgid "Linked Page Button Title"
+msgstr ""
+
+#: includes/metaboxes/event-metabox.php:84
+msgid "Display text for link."
+msgstr ""
+
+#: includes/metaboxes/gallery-metabox.php:8
+msgid "Upload images for this gallery"
+msgstr ""
+
+#: includes/metaboxes/gallery-metabox.php:14
+msgid "Gallery Pics"
+msgstr ""
+
+#: includes/metaboxes/gallery-metabox.php:15
+msgid "Choose bulk images for gallery."
+msgstr ""
+
+#: includes/metaboxes/gallery-metabox.php:18
+msgid "Upload Images"
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:7
+msgid "Page Settings"
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:8
+msgid "Add a subtitle and page cover."
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:14
+msgid "Page Subtitle"
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:15
+msgid "Enter the sub title for the page."
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:21
+msgid "Page Cover"
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:22
+msgid "Choose a background cover for this page, ideal size 1260px x 260px."
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:34
+msgid "Add a subtitle and cover for Gallery single page."
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:35
+msgid "Gallery Subtitle"
+msgstr ""
+
+#: includes/metaboxes/page-metabox.php:36
+msgid "Gallery Cover"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:5
+#: includes/widgets/homepage-rsvp.php:104
+msgid "All Events"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:11
+msgid "RSVP Information"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:12
+msgid "Attendee Information"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:18
+msgid "Attendee Number"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:19
+msgid "How many people are attending the event?"
+msgstr ""
+
+#: includes/metaboxes/rsvp-metabox.php:26
+msgid "Which event attending?"
+msgstr ""
+
+#: includes/metaboxes/seo.php:8
+msgid "SEO Settings"
+msgstr ""
+
+#: includes/metaboxes/seo.php:9
+msgid "Customize the SEO settings of your posts/pages"
+msgstr ""
+
+#: includes/metaboxes/seo.php:15
+msgid "Title"
+msgstr ""
+
+#: includes/metaboxes/seo.php:16
+msgid ""
+"Enter the post title, most search engines use a maximum of 60 characters."
+msgstr ""
+
+#: includes/metaboxes/seo.php:22
+msgid "Description"
+msgstr ""
+
+#: includes/metaboxes/seo.php:23
+msgid ""
+"Enter the post SEO description, most search engines use a maximum of 160 "
+"characters."
+msgstr ""
+
+#: includes/metaboxes/seo.php:29
+msgid "Keywords"
+msgstr ""
+
+#: includes/metaboxes/seo.php:30
+msgid "A comma separated list of keywords"
+msgstr ""
+
+#: includes/metaboxes/seo.php:36
+msgid "Meta Robots Index"
+msgstr ""
+
+#: includes/metaboxes/seo.php:37
+msgid "Do you want robots to index this page?"
+msgstr ""
+
+#: includes/metaboxes/seo.php:44
+msgid "Meta Robots Follow"
+msgstr ""
+
+#: includes/metaboxes/seo.php:45
+msgid "Do you want robots to follow links from this page?"
+msgstr ""
+
+#: includes/options/blog-settings.php:5
+msgid "Modify your blog settings."
+msgstr ""
+
+#: includes/options/blog-settings.php:8
+msgid "Blog Cover"
+msgstr ""
+
+#: includes/options/blog-settings.php:9
+msgid "Choose a cover image for blog"
+msgstr ""
+
+#: includes/options/blog-settings.php:16
+msgid "Blog Title"
+msgstr ""
+
+#: includes/options/blog-settings.php:17
+msgid "Choose the title for blog page"
+msgstr ""
+
+#: includes/options/blog-settings.php:23
+msgid "Blog Subitle"
+msgstr ""
+
+#: includes/options/blog-settings.php:24
+msgid "Choose the subtitle for blog page"
+msgstr ""
+
+#: includes/options/blog-settings.php:30
+msgid "Blog Footer"
+msgstr ""
+
+#: includes/options/blog-settings.php:31
+msgid "Enter the blog footer text"
+msgstr ""
+
+#: includes/options/blog-settings.php:34
+#, php-format
+msgid "A WordPress Theme by <a href=\"%s\">Codestag</a>"
+msgstr ""
+
+#: includes/options/blog-settings.php:37 includes/theme-customizer.php:11
+msgid "Blog Settings"
+msgstr ""
+
+#: includes/options/general-settings.php:4
+msgid ""
+"Configure general settings of your theme. Upload your preferred logo, "
+"favicon, and insert your analytics tracking code."
+msgstr ""
+
+#: includes/options/general-settings.php:7
+msgid "Plain Text Logo"
+msgstr ""
+
+#: includes/options/general-settings.php:8
+msgid ""
+"Check this box to enable a plain text logo rather than an image logo. Will "
+"use your site title."
+msgstr ""
+
+#: includes/options/general-settings.php:15
+msgid "Custom Logo Upload"
+msgstr ""
+
+#: includes/options/general-settings.php:16
+msgid "Upload a logo for your theme."
+msgstr ""
+
+#: includes/options/general-settings.php:23
+msgid "Custom Favicon Upload"
+msgstr ""
+
+#: includes/options/general-settings.php:24
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website's "
+"favicon. Use <a href=\"http://www.xiconeditor.com/\" target=\"_blank\" rel="
+"\"nofollow\">X-Icon Editor</a> to easily create a favicon."
+msgstr ""
+
+#: includes/options/general-settings.php:31
+msgid "Contact Form Email Address"
+msgstr ""
+
+#: includes/options/general-settings.php:32
+msgid ""
+"Enter the <code>email address</code> where you'd like to receive emails from "
+"the contact form, or leave blank to use admin email."
+msgstr ""
+
+#: includes/options/general-settings.php:38
+msgid "Tracking Code"
+msgstr ""
+
+#: includes/options/general-settings.php:39
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. It will be "
+"inserted before the closing body tag of your theme."
+msgstr ""
+
+#: includes/options/general-settings.php:45
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: includes/options/general-settings.php:46
+#: includes/options/general-settings.php:62
+msgid "Enter the length of post excerpt for blog page."
+msgstr ""
+
+#: includes/options/general-settings.php:53
+msgid "Number of Guestbook messages per page"
+msgstr ""
+
+#: includes/options/general-settings.php:54
+msgid "Specify the number of guestbook messages per page"
+msgstr ""
+
+#: includes/options/general-settings.php:61
+msgid "Post Excerpt Text"
+msgstr ""
+
+#: includes/options/general-settings.php:69
+msgid "Disable Admin Bar"
+msgstr ""
+
+#: includes/options/general-settings.php:70
+msgid "Enable/Disable WordPress Admin Bar for all users."
+msgstr ""
+
+#: includes/options/general-settings.php:77
+msgid "Disable SEO Settings"
+msgstr ""
+
+#: includes/options/general-settings.php:78
+msgid "Enable/Disable SEO Settings on single posts and pages."
+msgstr ""
+
+#: includes/options/general-settings.php:84
+msgid "General Settings"
+msgstr ""
+
+#: includes/options/styling-options.php:5
+msgid ""
+"Configure the visual appearance of your theme, or insert any custom CSS. You "
+"can also edit your site color scheme using <a href=\""
+msgstr ""
+
+#: includes/options/styling-options.php:9
+msgid "Background Color"
+msgstr ""
+
+#: includes/options/styling-options.php:10
+msgid "Choose the background color of your site"
+msgstr ""
+
+#: includes/options/styling-options.php:17
+msgid "Accent Color"
+msgstr ""
+
+#: includes/options/styling-options.php:18
+msgid "Choose the accent color of your site"
+msgstr ""
+
+#: includes/options/styling-options.php:25
+msgid "Body Font"
+msgstr ""
+
+#: includes/options/styling-options.php:26
+msgid ""
+"Quickly add a custom Google Font for body from <a href=\"http://www.google."
+"com/webfonts/\" target=\"_blank\">Google Font Directory.</a><br>\n"
+"     <code>Example font name: \"Source Sans Pro\"</code>, for including font "
+"weights type <code>Source Sans Pro:400,700,400italic</code>."
+msgstr ""
+
+#: includes/options/styling-options.php:35
+msgid ""
+"Quickly add a custom Google Font for Headings from <a href=\"http://www."
+"google.com/webfonts/\" target=\"_blank\">Google Font Directory.</a><br>\n"
+"     For font type: <code>\"Source Sans Pro\"</code>, for including specific "
+"font weights <code>Source Sans Pro:400,700,400italic</code>."
+msgstr ""
+
+#: includes/options/styling-options.php:43
+msgid "Google Font Script"
+msgstr ""
+
+#: includes/options/styling-options.php:44
+msgid "Choose the character sets you want for Google Web Font"
+msgstr ""
+
+#: includes/options/styling-options.php:49
+msgid "Cyrillic"
+msgstr ""
+
+#: includes/options/styling-options.php:50
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: includes/options/styling-options.php:51
+msgid "Greek"
+msgstr ""
+
+#: includes/options/styling-options.php:52
+msgid "Greek Extended"
+msgstr ""
+
+#: includes/options/styling-options.php:53
+msgid "Khmer"
+msgstr ""
+
+#: includes/options/styling-options.php:54
+msgid "Latin"
+msgstr ""
+
+#: includes/options/styling-options.php:55
+msgid "Latin Extended"
+msgstr ""
+
+#: includes/options/styling-options.php:56
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/options/styling-options.php:61
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/styling-options.php:62
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: includes/options/styling-options.php:67 includes/theme-customizer.php:6
+msgid "Styling Options"
+msgstr ""
+
+#: includes/options/wedding-options.php:5
+msgid "Customize your homepage preferences."
+msgstr ""
+
+#: includes/options/wedding-options.php:8
+msgid "Wedding Date"
+msgstr ""
+
+#: includes/options/wedding-options.php:9
+msgid "Select the wedding date in dd-mm-yyyy format"
+msgstr ""
+
+#: includes/options/wedding-options.php:17
+msgid "Wedding Time"
+msgstr ""
+
+#: includes/options/wedding-options.php:18
+msgid ""
+"Select the wedding time in H:i:s format.<br>For example: 20:12:55; hours, "
+"minutes and seconds respectively."
+msgstr ""
+
+#: includes/options/wedding-options.php:25
+msgid "Bridegroom details"
+msgstr ""
+
+#: includes/options/wedding-options.php:32
+#: includes/options/wedding-options.php:68
+msgid "First Name"
+msgstr ""
+
+#: includes/options/wedding-options.php:33
+msgid "Enter the first name of the Bridegroom"
+msgstr ""
+
+#: includes/options/wedding-options.php:39
+#: includes/options/wedding-options.php:75
+msgid "Last Name"
+msgstr ""
+
+#: includes/options/wedding-options.php:40
+msgid "Enter the Last name of the Bridegroom"
+msgstr ""
+
+#: includes/options/wedding-options.php:46
+msgid "Bridegroom Avatar"
+msgstr ""
+
+#: includes/options/wedding-options.php:47
+msgid ""
+"Upload the avatar of Bridegroom.<br>Ideal size 115px x 115px or 230px x "
+"230px for retina displays"
+msgstr ""
+
+#: includes/options/wedding-options.php:53
+msgid "Bridegroom Short Bio"
+msgstr ""
+
+#: includes/options/wedding-options.php:54
+msgid "Bio text for bridegroom"
+msgstr ""
+
+#: includes/options/wedding-options.php:61
+msgid "Bride details"
+msgstr ""
+
+#: includes/options/wedding-options.php:69
+msgid "Enter the first name of the Bride"
+msgstr ""
+
+#: includes/options/wedding-options.php:76
+msgid "Enter the Last name of the Bride"
+msgstr ""
+
+#: includes/options/wedding-options.php:82
+msgid "Bride Avatar"
+msgstr ""
+
+#: includes/options/wedding-options.php:83
+msgid ""
+"Upload the avatar of Bride.<br>Ideal size 115px x 115px or 230px x 230px for "
+"retina displays"
+msgstr ""
+
+#: includes/options/wedding-options.php:89
+msgid "Bride Short Bio"
+msgstr ""
+
+#: includes/options/wedding-options.php:90
+msgid "Bio text for bride"
+msgstr ""
+
+#: includes/options/wedding-options.php:96
+msgid "Intro Section Slideshow"
+msgstr ""
+
+#: includes/options/wedding-options.php:103
+msgid "Slideshow Images"
+msgstr ""
+
+#: includes/options/wedding-options.php:109
+msgid "Slideshow Duration"
+msgstr ""
+
+#: includes/options/wedding-options.php:110
+msgid ""
+"Enter the duration between slideshows.<br><em>1000 is equal to 1 second.</em>"
+msgstr ""
+
+#: includes/options/wedding-options.php:117
+msgid "Fade Duration"
+msgstr ""
+
+#: includes/options/wedding-options.php:118
+msgid ""
+"Enter the duration between slideshows fade animation.<br><em>1000 is equal "
+"to 1 second.</em>"
+msgstr ""
+
+#: includes/options/wedding-options.php:124
+msgid "Wedding Settings"
+msgstr ""
+
+#: includes/theme-customizer.php:21
+msgid "Choose Site Background"
+msgstr ""
+
+#: includes/theme-customizer.php:32
+msgid "Choose accent color"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:12
+msgid "Display a recent post from blog."
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:13
+msgid "Section: Blog"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:17
+msgid "From the Blog"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:18
+#: includes/widgets/homepage-event.php:18
+#: includes/widgets/homepage-gallery.php:133
+#: includes/widgets/homepage-rsvp.php:18
+#: includes/widgets/homepage-tweets.php:18
+#: includes/widgets/homepage-wedding-intro.php:18
+#: includes/widgets/static-content.php:22
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:22
+msgid "Present ideas, Stories, and latest updates for the Wedding."
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:23
+#: includes/widgets/homepage-gallery.php:138
+#: includes/widgets/homepage-rsvp.php:23
+#: includes/widgets/homepage-tweets.php:23
+msgid "Sub Title:"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:29
+msgid "Post Count:"
+msgstr ""
+
+#: includes/widgets/homepage-blog.php:101
+msgid "Go to Blog"
+msgstr ""
+
+#: includes/widgets/homepage-countdown.php:12
+msgid "Display wedding countdown."
+msgstr ""
+
+#: includes/widgets/homepage-countdown.php:13
+msgid "Section: Wedding Countdown"
+msgstr ""
+
+#: includes/widgets/homepage-countdown.php:17
+#: includes/widgets/homepage-divider.php:17
+msgid "Yay! No options to set!"
+msgstr ""
+
+#: includes/widgets/homepage-divider.php:12
+msgid "Separate homepage sections with this horizontal divider."
+msgstr ""
+
+#: includes/widgets/homepage-divider.php:13
+msgid "Section: Section Divider"
+msgstr ""
+
+#: includes/widgets/homepage-event.php:12
+msgid "Display wedding event details on homepage."
+msgstr ""
+
+#: includes/widgets/homepage-event.php:13
+msgid "Section: Wedding Event"
+msgstr ""
+
+#: includes/widgets/homepage-event.php:17
+msgid "The Wedding Event"
+msgstr ""
+
+#: includes/widgets/homepage-event.php:24
+msgid "Welcome Text:"
+msgstr ""
+
+#: includes/widgets/homepage-event.php:98
+msgid "Learn More"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:6
+msgid "Display Gallery pics from a specific category."
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:8
+msgid "Section: Wedding Gallery"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:91
+msgid "Go to Galleries"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:121
+msgid "Featured Photographs"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:143
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:154
+msgid "Choose category from which to display photos"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:158
+msgid "Linked Page:"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:161
+msgid "-Select Page-"
+msgstr ""
+
+#: includes/widgets/homepage-gallery.php:176
+msgid "This page will be display a link to the photo gallery."
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:12
+msgid "Display RSVP form."
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:13
+msgid "Section: RSVP Form"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:17
+msgid "Are you attending? RSVP here!"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:22
+msgid "Please select the options below and click the button in order to RSVP!"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:27
+msgid "Max number of Guests:"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:35
+#: includes/widgets/homepage-rsvp.php:118
+msgid "I Am Attending"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:36
+msgid "RSVP Button Label:"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:83
+msgid "Number of Guests"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:100
+msgid "You will attend&hellip;"
+msgstr ""
+
+#: includes/widgets/homepage-rsvp.php:111
+msgid "Not attending"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:12
+msgid "Display back to back tweets from bridegroom and bride."
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:13
+msgid "Section: Wedding Couple Tweets"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:17
+msgid "Tweets Back to Back"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:27
+#, php-format
+msgid ""
+"This widget will use avatar and first name of bride and bridegroom set under "
+"Theme Options > <a href=\"%s\" target=\"_blank\">Wedding Settings</a>."
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:32
+msgid "Bridegroom Twitter Username:"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:37
+msgid "Bride Twitter Username:"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:43
+msgid "Cache tweets in every following hours:"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:51
+msgid "Number of tweets (max 10):"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:55
+#, php-format
+msgid ""
+"Details like Consumer key and secret can be set under <a href=\"%s\" target="
+"\"_blank\">StagTools Settings</a>"
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:104
+msgid "Please fill all widget settings."
+msgstr ""
+
+#: includes/widgets/homepage-tweets.php:117
+#: includes/widgets/homepage-tweets.php:118
+msgid "Couldn't retrieve tweets! Wrong username!"
+msgstr ""
+
+#: includes/widgets/homepage-wedding-intro.php:12
+msgid "Display wedding intro on homepage."
+msgstr ""
+
+#: includes/widgets/homepage-wedding-intro.php:13
+msgid "Section: Wedding Intro"
+msgstr ""
+
+#: includes/widgets/homepage-wedding-intro.php:17
+msgid "Are Getting Married!"
+msgstr ""
+
+#: includes/widgets/static-content.php:16
+msgid "Displays content from a specific page."
+msgstr ""
+
+#: includes/widgets/static-content.php:17
+msgid "Section: Static Content"
+msgstr ""
+
+#: includes/widgets/static-content.php:27
+msgid "Select Page:"
+msgstr ""
+
+#: includes/widgets/static-content.php:32
+msgid "Background Color:"
+msgstr ""
+
+#: includes/widgets/static-content.php:40
+msgid "Background Opacity:"
+msgstr ""
+
+#: includes/widgets/static-content.php:45
+msgid "Background Image URL:"
+msgstr ""
+
+#: includes/widgets/static-content.php:50
+msgid "Text Color:"
+msgstr ""
+
+#: includes/widgets/static-content.php:55
+msgid "Link Color:"
+msgstr ""
+
+#: includes/widgets/static-content.php:91
+msgid "Read more"
+msgstr ""
+
+#: index.php:60
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: page-templates/template-contact.php:6
+#: page-templates/template-guestbook.php:51
+msgid "Please enter your name."
+msgstr ""
+
+#: page-templates/template-contact.php:7
+msgid "Please enter your email address."
+msgstr ""
+
+#: page-templates/template-contact.php:8
+msgid "You entered an invalid email address."
+msgstr ""
+
+#: page-templates/template-contact.php:9
+msgid "Please enter a message."
+msgstr ""
+
+#: page-templates/template-contact.php:89
+msgid "Your Phone"
+msgstr ""
+
+#: page-templates/template-contact.php:96
+#: page-templates/template-guestbook.php:21
+msgid "Your Message"
+msgstr ""
+
+#: page-templates/template-contact.php:106
+msgid "Thanks, your message was sent successfully."
+msgstr ""
+
+#: page-templates/template-contact.php:111
+msgid "Send Message"
+msgstr ""
+
+#: page-templates/template-guestbook.php:32
+msgid "2+3="
+msgstr ""
+
+#: page-templates/template-guestbook.php:44
+msgid "Please type your message."
+msgstr ""
+
+#: page-templates/template-guestbook.php:58
+msgid "Well, we are sure 2+3 is not equal to what you have entered."
+msgstr ""
+
+#: page-templates/template-guestbook.php:72
+msgid "Your message has been added, thanks."
+msgstr ""
+
+#: page-templates/template-guestbook.php:81
+msgid "Add Message"
+msgstr ""
+
+#: page-templates/template-guestbook.php:136
+msgid "There isn't any messsage yet!"
+msgstr ""
+
+#: page-templates/template-photo-gallery.php:21
+msgid "All Photos"
+msgstr ""
+
+#: single-events.php:33
+msgid "Location:"
+msgstr ""
+
+#: single-events.php:40
+msgid "Date:"
+msgstr ""
+
+#: single-events.php:47
+msgid "Time:"
+msgstr ""
+
+#: single-events.php:53
+msgid "Continue Reading"
+msgstr ""
+
+#: single.php:20
+msgid "<span>Post Tags: </span>"
+msgstr ""
+
+#: single.php:26
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:27
+msgid "Next Post"
+msgstr ""

@@ -1,0 +1,99 @@
+/* 768 ============================================= */
+@media (max-width: 480px){
+    .blog-title-wrap{
+        padding-top: 20px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .wedding-couple-wrap h2{ font-size: 35px; padding-top: 0px; }
+    #blog .entry-title,
+    .section-title,
+    .hentry .entry-title,
+    #intro .news,
+    h3#comments,
+    #reply-title{
+        font-size: 35px;
+    }
+
+    .header .full-wedding-date{
+        font-size: 24px;
+    }
+
+    .header-outer{
+        padding-bottom: 15px;
+    }
+
+    h4.sub-title, .thanks, .error-message{
+        font-size: 19px;
+    }
+    .wedding-couple-wrap h2{
+        font-size: 30px;
+    }
+
+    .countdown-amount{
+        font-size: 50px;
+    }
+
+    .inner-block{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .the-block{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .info-header > *{
+        display: block!important;
+        float: none!important;
+        text-align: center;
+    }
+
+    .wedding-couple-wrap .info-header{
+        padding: 25px;
+        padding-bottom: 15px;
+    }
+
+    .wedding-couple-wrap .person-avatar{
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contact-details span{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .entry-header{
+        .author,.category,.comments{
+            display: none;
+        }
+    }
+
+    .hentry .post-thumb{
+        margin-bottom: 20px;
+    }
+
+    .header .full-wedding-date{
+        display: none;
+    }
+
+    .container-wrap .blog-cover .blog-title-inner-wrap{
+        padding-top: 0;
+    }
+
+    .container-wrap .blog-cover{
+        height: 210px;
+    }
+
+    .hentry .entry-title{
+        margin: 10px 0 15px;
+    }
+
+    #photo-list .photo.ipad-6{
+        display: block;
+        width: 100%;
+    }
+}

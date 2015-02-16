@@ -1,0 +1,88 @@
+/*------------------------------------------------------------------------*/
+/*  Tiny Screens and up
+/*------------------------------------------------------------------------*/
+@media only screen and (max-width: 992px) {
+    #primary-menu{
+        display: none;
+    }
+    #navigation{
+        position: relative;
+    }
+    #mobile-nav{
+        text-align: center;
+        padding-top: 5px;
+        display: block;
+        width: 40px;
+        height: 28px;
+        margin-right: 20px;
+        position: absolute;
+        top: 3px;
+        right: -5px;
+        z-index: 2;
+        .icon-navicon{
+            color: white;
+            font-size: 15px;
+        }
+    }
+    #mobile-primary-nav{
+        padding: 10px;
+        margin-top: 28px;
+        // > li:last-child a{
+        //     border: none;
+        // }
+    }
+   #mobile-primary-nav-wrap{
+    position: relative;
+    min-height: 35px;
+        a{
+            color: #fff;
+        }
+        li{
+            a{
+                padding: 6px 0;
+                border-top: 1px solid rgba(black, .1);
+                display: block;
+            }
+        }
+        .sub-menu{
+            li{
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .wedding-couple-wrap{
+        // padding-top: 10em;
+    }
+    .wedding-couple-wrap .person-info{
+        width: auto;
+        display: block;
+        margin: 20px;
+        &:first-child{
+            margin-right: 20px;
+            &:before{
+                left: 50%;
+                right: 50%;
+                top: auto;
+                bottom: -40px;
+                margin-left: -30px;
+            }
+            .person-bio{
+                padding-bottom: 40px;
+            }
+        }
+    }
+    .wedding-couple-wrap .person-bio{
+        padding: 20px 0;
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .wedding-couple-wrap{
+        padding-top: 200px;
+    }
+}
