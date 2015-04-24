@@ -133,7 +133,6 @@ get_header(); ?>
 
 				<?php if( get_post_meta( get_the_ID(), '_stag_contact_number', true ) != '' || get_post_meta( get_the_ID(), '_stag_contact_email', true ) != '' ) : ?>
 					<div class="contact-details">
-						<span class="contact-number"><i class="icon icon-phone"></i> <?php echo get_post_meta(get_the_ID(), '_stag_contact_number', true); ?></span>
 						<span class="contact-email"><i class="icon icon-mail"></i> <a href="mailto:<?php echo get_post_meta(get_the_ID(), '_stag_contact_email', true); ?>"><?php echo get_post_meta(get_the_ID(), '_stag_contact_email', true); ?></a></span>
 					</div>
 				<?php endif; ?>
